@@ -12,14 +12,18 @@ module.exports = {
   */
 
   returnArray: function() {
-    // your code here
-  }
+    return [1,2,3,4]
+  },
 
   /*
     def divide(numerator, denominator)
       numerator / denominator
     end
   */
+
+  divide: function(num, den) {
+    return num/den;
+  },
 
   // your code here for divide
 
@@ -29,6 +33,10 @@ module.exports = {
     end
   */
 
+  add: function(a,b) {
+    return a+b;
+  },
+
   // your code here for add
 
   /*
@@ -36,6 +44,10 @@ module.exports = {
       base ** exponent
     end
   */
+
+  power: function(base, exponent) {
+    return Math.pow(base, exponent);
+  },
 
   // your code here for power
 
@@ -45,6 +57,10 @@ module.exports = {
     end
   */
 
+  concatenate: function(a,b) {
+    return a+b;
+  }
+
   // your code here for concatenate
 
   /*
@@ -52,6 +68,8 @@ module.exports = {
       string.sub(char, replacement)
     end
   */
+
+
 
   // your code here for sub
 }
